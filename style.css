@@ -39,8 +39,8 @@ section {
 
 .hero_title {
     font-family: 'Calistoga';
-    font-size: 50px;
-    font-weight: 1000;
+    font-size: 40px;
+    font-weight: 500;
     color: var(--blue);
     letter-spacing: 1.5px;
     text-align: left;
@@ -83,6 +83,7 @@ kode tambahan
     color: var(--uber);
     text-align: left;
     margin-bottom: 20px;
+    font-size: 26px;
 
     position: relative;
     top: 30px;
@@ -103,6 +104,7 @@ kode tambahan
 .manual_video_text{
     text-align: left;
     margin-bottom: 50px;
+    font-size: 14px;
 
     position: relative;
     top: 30px;
@@ -195,23 +197,26 @@ kode tambahan
     color: var(--uber);
     margin-bottom: 20px;
     text-align: left;
+    font-size: 26px;
 }
 
 .manual_tutor_text{
     text-align: left;
     margin-bottom: 20px;
+    font-size: 14px;
 }
 
 .manual_tutor_gadget{
     color: var(--blue);
     margin: 30px 0;
     text-align:left;
-    font-weight: 1000;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .manual_tutor_steps{
     color: var(--black);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom: 20px;
     text-align: left;
@@ -220,17 +225,17 @@ kode tambahan
 .manual_tutor_steps span{
     color: var(--black);
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .manual_tutor_steps mark{
     background-color: var(--white);
     color: var(--blue);
-    transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
+    transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
 }
 
 .manual_tutor_steps mark:hover {
-    font-weight: bold;
+    /* font-weight: bold; */
     color: var(--white);
     background-color: var(--blue);
 }
@@ -240,7 +245,7 @@ kode tambahan
 }
 
 .manual_tutor_steps_image{
-    width: 100%;
+    width: 80%;
     max-width: 400px;
     height: auto;
     object-fit: contain;
@@ -249,44 +254,68 @@ kode tambahan
 
 @media only screen and (min-width: 768px) {
     .hero_title{
-        font-size: 55px
+        font-size: 60px
     }
 
-    .manual_video{
-        font-size: 20px;
+    .manual_video_title {
+        font-size: 30px;
     }
 
-    .manual_tutor{
-        font-size: 20px;
+    .manual_video_text {
+        font-size: 18px;
     }
 
-    .manual_tutor_steps{
-        font-size: 25px
+    .manual_tutor_title {
+        font-size: 30px;
+    }
+
+    .manual_tutor_text {
+        font-size: 18px;
+    }
+
+    .manual_tutor_gadget {
+        font-size: 22px;
+    }
+
+    .manual_tutor_steps {
+        font-size: 18px
     }
 
     .manual_tutor_steps span{
-        font-size: 28px;
+        font-size: 26px;
     }
 }   
 
 @media only screen and (min-width: 1025px) {
     .hero_title{
-        font-size: 65px
+        font-size: 60px
     }
 
-    .manual_video{
-        font-size: 23px;
+    .manual_video_title {
+        font-size: 30px;
     }
 
-    .manual_tutor{
-        font-size: 23px;
+    .manual_video_text {
+        font-size: 18px;
     }
 
-    .manual_tutor_steps{
-        font-size: 27px
+    .manual_tutor_title {
+        font-size: 30px;
+    }
+
+    .manual_tutor_text {
+        font-size: 18px;
+    }
+
+    .manual_tutor_gadget {
+        font-size: 24px;
+    }
+
+    .manual_tutor_steps {
+        font-size: 20px
     }
 
     .manual_tutor_steps span{
-        font-size: 32px;
+        font-size: 28px;
     }
 }
