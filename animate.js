@@ -53,5 +53,4 @@ window.addEventListener('load', () => {
     appearOnScroll.observe(manual_video_text);
     appearOnScroll.observe(line);
     body.style.overflow = "unset";
-    body.style.opacity = 1;
 })

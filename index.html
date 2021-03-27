@@ -145,6 +145,13 @@
         $(window).on("load", function () {
             $(".loader-wrapper").fadeOut("slow");
         });
+
+        history.scrollRestoration = "manual";
+
+        $(window).on('beforeunload', function () {
+            $(window).scrollTop(0);
+            $(body).hide();
+        });
     </script>
 </body>
 
