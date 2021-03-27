@@ -57,3 +57,8 @@ window.addEventListener('scroll', () => {
         navHeader.classList.remove('alternate');
     }
 })
+
+window.onbeforeunload = function () {
+    body.style.opacity = 0;
+    window.scrollTo(0, 0);
+}
