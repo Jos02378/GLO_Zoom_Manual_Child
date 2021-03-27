@@ -44,8 +44,11 @@ const appearOnScroll2 = new IntersectionObserver(function (
     },
     appearOptions2);
 
-appearOnScroll.observe(hero_title);
-appearOnScroll.observe(manual_video_title);
-appearOnScroll2.observe(manual_video_yt_container);
-appearOnScroll.observe(manual_video_text);
-appearOnScroll.observe(line);
+
+window.addEventListener('load', () => {
+    appearOnScroll.observe(hero_title);
+    appearOnScroll.observe(manual_video_title);
+    appearOnScroll2.observe(manual_video_yt_container);
+    appearOnScroll.observe(manual_video_text);
+    appearOnScroll.observe(line);
+})
