@@ -17,7 +17,7 @@
     width: 90%;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 
     z-index: 1;
 }
@@ -27,7 +27,6 @@
     margin-right: 10px;
 
     overflow: hidden;
-    cursor: pointer;
 
     display: grid;
     place-items: center;
@@ -43,7 +42,7 @@
     font-weight: 600;
     color: var(--white);
     line-height: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
     z-index: 1;
 }
