@@ -1,8 +1,9 @@
 const hero_title = document.querySelector(".hero_title");
+const line = document.querySelector(".line");
 const manual_video_title = document.querySelector(".manual_video_title");
 const manual_video_text = document.querySelector(".manual_video_text");
-const line = document.querySelector(".line");
 const manual_video_yt_container = document.querySelector(".manual_video_yt_container");
+const body = document.querySelector("body");
 
 const appearOptions = {
     threshold: 0,
@@ -51,4 +52,5 @@ window.addEventListener('load', () => {
     appearOnScroll2.observe(manual_video_yt_container);
     appearOnScroll.observe(manual_video_text);
     appearOnScroll.observe(line);
+    body.style.overflow = "unset";
 })

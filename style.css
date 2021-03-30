@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    overflow: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -246,7 +247,7 @@ kode tambahan
 
 .manual_tutor_steps_image{
     width: 80%;
-    max-width: 400px;
+    max-width: 430px;
     height: auto;
     object-fit: contain;
     margin: 10px 0 40px 0;
@@ -264,7 +265,7 @@ kode tambahan
     justify-content: center;
     align-items: center;
     z-index: 100;
-  }
+}
 
 .loader {
     display: inline-block;
@@ -273,7 +274,7 @@ kode tambahan
     position: relative;
     border: 4px solid var(--black);
     animation: loader 2s infinite ease;
-  }
+}
 
 .loader-inner {
     vertical-align: top;
@@ -281,7 +282,7 @@ kode tambahan
     width: 100%;
     background-color: var(--black);
     animation: loader-inner 2s infinite ease-in;
-  }
+}
 
 @keyframes loader {
     0% { transform: rotate(0deg);}
@@ -289,7 +290,7 @@ kode tambahan
     50% { transform: rotate(180deg);}
     75% { transform: rotate(360deg);}
     100% { transform: rotate(360deg);}
-  }
+}
 
 @keyframes loader-inner {
     0% { height: 0%;}
@@ -297,7 +298,8 @@ kode tambahan
     50% { height: 100%;}
     75% { height: 100%;}
     100% { height: 0%;}
-  }
+}
+
 @media only screen and (min-width: 768px) {
     .hero_title{
         font-size: 60px
